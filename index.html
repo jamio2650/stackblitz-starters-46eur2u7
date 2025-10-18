@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Web Project - Start</title>
+    <!-- Link to external CSS with absolute path -->
+    <link rel="stylesheet" href=".styles.css">
+
+    <!-- Link to external JavaScript with absolute path -->
+    <script src=".script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title">Welcome to My Project</h1>
+        <p class="subtitle">
+          A simple webpage with external CSS and JavaScript
+        </p>
+        <nav>
+          <menu>
+            <li>
+              <a href="index.html" class="btn">Home</a>
+            </li>
+            <li>
+              <a href="page2.html" class="btn">Features</a>
+            </li>
+            <li>
+              <a href="about.html" class="btn">About</a>
+            </li>
+          </menu>
+        </nav>
+      </header>
+
+      <main class="main-content">
+        <section class="card">
+          <h2>Interactive Demo</h2>
+          <button id="colorButton" class="btn">Change Background Color</button>
+          <p id="counter">Clicks: 0</p>
+        </section>
+
+        <section class="card">
+          <h2>Form Example</h2>
+          <form id="sampleForm">
+            <div class="form-group">
+              <label for="nameInput">Your Name:</label>
+              <input
+                type="text"
+                id="nameInput"
+                class="form-input"
+                placeholder="Enter your name"
+              />
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <div id="output" class="output"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>&copy; 2025 Simple Web Project</p>
+      </footer>
+    </div>
+
+    <!-- Link to external JavaScript with absolute path -->
+  </body>
+</html>

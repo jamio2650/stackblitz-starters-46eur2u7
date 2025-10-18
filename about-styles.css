@@ -1,0 +1,138 @@
+/* About page specific styles */
+
+/* Quote styling */
+.quote-text {
+  margin-top: 15px;
+  font-style: italic;
+  color: #667eea;
+}
+
+/* Technology stack cards */
+.tech-stack-item {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 0 8px 8px 0;
+}
+
+.tech-html {
+  background: #fff5f5;
+  border-left: 4px solid #e53e3e;
+}
+
+.tech-html .tech-label {
+  color: #e53e3e;
+}
+
+.tech-css {
+  background: #f0fff4;
+  border-left: 4px solid #38a169;
+}
+
+.tech-css .tech-label {
+  color: #38a169;
+}
+
+.tech-js {
+  background: #fffaf0;
+  border-left: 4px solid #ed8936;
+}
+
+.tech-js .tech-label {
+  color: #ed8936;
+}
+
+/* Features grid */
+.features-grid {
+  display: grid;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.feature-number {
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.feature-number.number-1 {
+  background: #667eea;
+}
+
+.feature-number.number-2 {
+  background: #48bb78;
+}
+
+.feature-number.number-3 {
+  background: #ed8936;
+}
+
+.feature-number.number-4 {
+  background: #9f7aea;
+}
+
+/* Future enhancements list */
+.enhancements-list {
+  margin-top: 15px;
+  color: #4a5568;
+  line-height: 1.8;
+}
+
+.enhancements-list li {
+  margin-bottom: 8px;
+}
+
+/* Enhancement callout box */
+.enhancement-callout {
+  margin-top: 20px;
+  padding: 15px;
+  background: linear-gradient(
+    45deg,
+    rgba(102, 126, 234, 0.1),
+    rgba(118, 75, 162, 0.1)
+  );
+  border-radius: 8px;
+  border: 1px solid rgba(102, 126, 234, 0.2);
+}
+
+.enhancement-callout .callout-label {
+  color: #667eea;
+}
+
+/* Responsive adjustments for about page */
+@media (max-width: 768px) {
+  .tech-stack-item {
+    padding: 10px;
+  }
+
+  .feature-item {
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .feature-number {
+    margin-top: 2px;
+  }
+}
+
+@media (max-width: 480px) {
+  .features-grid {
+    gap: 12px;
+  }
+
+  .enhancement-callout {
+    padding: 12px;
+  }
+}
